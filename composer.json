@@ -1,5 +1,5 @@
 {
-    "name": "diplix/URLResolver",
+    "name": "diplix/URLResolver.php",
     "description": "URLResolver.php is a PHP class that attempts to resolve URLs to a final, canonical link.",
     "keywords": ["url", "shortener"],
     "homepage": "https://github.com/mattwright/URLResolver.php",
