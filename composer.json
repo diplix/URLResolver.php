@@ -21,12 +21,7 @@
     "require": {
         "php": ">=5.2.4",
         "simple-html-dom/simple-html-dom": "*"
-    },
-	"autoload": {
-    	"classmap": [
-	        "vendor/simple-html-dom/simple-html-dom/"
-	    ]
-	}
+    }
 
 }
 
