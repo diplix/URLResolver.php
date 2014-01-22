@@ -1,0 +1,32 @@
+{
+    "name": "mattwright/URLResolver",
+    "description": "URLResolver.php is a PHP class that attempts to resolve URLs to a final, canonical link.",
+    "keywords": ["url", "shortener"],
+    "homepage": "https://github.com/mattwright/URLResolver.php",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+        "name": "Matt Wright",
+        "homepage": "https://github.com/mattwright/URLResolver.php"
+        }
+    ],
+    "type": "library",
+	"repositories": [
+    	{
+        	"type": "vcs",
+	        "url": "https://github.com/Youpie/simple-html-dom"
+	    }
+	],
+    "require": {
+        "php": ">=5.2.4",
+        "simple-html-dom/simple-html-dom": "*"
+    },
+	"autoload": {
+    	"classmap": [
+	        "vendor/simple-html-dom/simple-html-dom/"
+	    ]
+	}
+
+}
+
